@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: rgb(234, 242, 292);
+  width: min(90%, 500px);
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.4rem 2rem;
+  font-size: 1rem;
+  margin: 2rem 0 1rem 0;
+}
+
+p {
+  max-width: 400px;
+  margin: 0.5rem auto;
+  font-size: 1.1rem;
+}
